@@ -20,15 +20,35 @@ main{
     padding: 5px;
     border-radius: 10px;
 }
+.arrow{
+    color: white;
+    position: absolute;
+}
+.arrow1{
+    padding: 400px 0 0 20px;
+    font-size: 15px;
+}
+.arrow i{
+    font-size: 40px;
+}
+.arrow1 i{
+    color: grey;
+}
+.arrow2{
+    padding-top: 400px;
+    padding-left: 1310px ;
+}
+.arrow2 i{
+    color: rgb(40, 185, 243);
+}
 .image-flex{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding-top: 10px;
-    padding-bottom: 100px;
+    padding: 10px 50px 100px;
 }
 .box-image{
-    width: 250px;
+    width: 230px;
     height: 150px;
     padding-top: 10px;
     position: relative;
