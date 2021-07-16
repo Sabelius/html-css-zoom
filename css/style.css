@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: "border-box";
+}
+.flex-container{
+    display: flex;
+    justify-content:flex-end;
+    margin-right: 20px;
+}
+.button{
+    margin:5px;
+    background-color: rgb(83, 83, 83);
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+}
+.image-flex{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    background-color: black;
+}
+img{
+    width: 250px;
+    height: 150px;
+    padding-top: 10px;
+}
